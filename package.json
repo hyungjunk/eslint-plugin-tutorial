@@ -1,6 +1,6 @@
 {
   "name": "hyungjunk-eslint-tutorial",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A tutorial repository to create your first eslint rule",
   "main": "lib/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "format:check": "yarn prettier --check",
     "test": "jest",
     "prepublish": "npm run clean && npm run build",
-    "release": "standard-version"
+    "release": "standard-version && npm publish"
   },
   "files": [
     "README.md",
